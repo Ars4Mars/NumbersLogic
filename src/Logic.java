@@ -19,7 +19,7 @@ public class Logic {
         System.out.println(max.getAsInt());
 
         //найти мин число в массиве
-        int [] array = new int[100]; //{12,34,23,11,10,24,34,50,90};
+        int [] array = {12,34,23,11,10,24,34,50,90};
 
         int minValue = array[0];
         int maxValue = array[0];
@@ -32,13 +32,13 @@ public class Logic {
 
             }
         }
-        System.out.println(maxValue);
+        System.out.println(maxValue + " is max");
 
         //сколько чисел в массиве
         int[] arrayx = {1, -4, 3, 5};
         int length = arrayx.length;
 
-        System.out.println(length);
+        System.out.println(length + "is Length");
 
 
 
